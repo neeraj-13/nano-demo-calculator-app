@@ -15,6 +15,7 @@ baseRouter.get('/greeting', (req, res) => {
 
 baseRouter.post('/add', (req, res) => {
     let sum=req.body.first+req.body.second;
+    // add
     res.status(200).json({ "result": sum });
 });
 
